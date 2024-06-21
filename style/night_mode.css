@@ -1,42 +1,21 @@
-/* night.css */
 
 body {
     background-color: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
+    color: #F5F5F7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #F5F5F7;
     text-align: center;
-}
-
-.content {
-    width: 80%;
-    margin: 0 auto;
-}
-
-h1, h2 {
-    color: #ffffff;
 }
 
 a {
     text-decoration: none;
-    color: #bb86fc;
+    color: #6ed6f0;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #bb86fc;
-    border-radius: 10px;
+hr {
+    border: 0;
+    border-top: 2px solid #F5F5F7;
+    margin: 20px 0;
 }
