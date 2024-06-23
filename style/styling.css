@@ -7,6 +7,14 @@ body {
     font-family: Verdana, sans-serif;
 }
   
+/* Stili per dispositivi mobili */
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
 .content {
     margin: 0 auto;
     text-align: justify;
