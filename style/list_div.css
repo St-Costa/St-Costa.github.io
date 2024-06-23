@@ -1,0 +1,28 @@
+
+
+.list_div > * {
+    margin-top: 5px;  /* Spazio sopra ogni elemento */
+    margin-bottom: 5px;  /* Spazio sotto ogni elemento */
+}
+
+.bottom_space {
+    margin-bottom: 0.3cm;
+}
+
+.bottom_space_big {
+    margin-bottom: 0.8cm;
+}
+
+.bottom_space_very_big {
+    margin-bottom: 1.2cm;
+}
+
+.left_line {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.not_bold {
+    font-weight: 550;
+}
+

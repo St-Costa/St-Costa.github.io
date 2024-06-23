@@ -1,7 +1,8 @@
 
 body {
     background-color: #121212;
-    color: #F5F5F7;
+    color: #dedede;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,4 +19,13 @@ hr {
     border: 0;
     border-top: 2px solid #F5F5F7;
     margin: 20px 0;
+}
+
+.yellow {
+    color: #f5d682;
+}
+
+b {
+    color: #ffffff;
+    font-weight: 900;
 }
