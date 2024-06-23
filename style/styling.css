@@ -10,8 +10,8 @@ body {
 /* Stili per dispositivi mobili */
 @media only screen and (max-width: 768px) {
     body {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
 
