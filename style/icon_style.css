@@ -2,3 +2,11 @@
     width: 40px;
     border-radius: 0px !important;
 }
+
+.icon_inline{
+    vertical-align: middle; /* Allinea l'icona al centro verticale del testo */
+    margin-right: 1px; /* Spazio tra l'icona e il testo */
+    width: 20px;
+    display: inline;
+    border-radius: 5px !important;
+}
