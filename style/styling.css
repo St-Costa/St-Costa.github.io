@@ -8,7 +8,7 @@ body {
 }
   
 /* Stili per dispositivi mobili */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     body {
         margin-left: 7%;
         margin-right: 7%;
