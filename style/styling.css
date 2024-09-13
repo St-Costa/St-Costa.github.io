@@ -53,6 +53,11 @@ img {
     margin-right: auto;
 }
 
+.animated_img:hover {
+    transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra intorno all'immagine per un effetto più evidente */
+}
+
 .left {
     text-align: left;
 }
@@ -60,3 +65,4 @@ img {
 figure figcaption {
     text-align: center;
 }
+

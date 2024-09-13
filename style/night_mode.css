@@ -29,3 +29,22 @@ b {
     color: #ffffff;
     font-weight: 900;
 }
+
+.custom-button {
+    background-color: transparent;
+    color: #6ed6f0;
+    border: solid;
+    padding: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 12%;  /* Fixed width */
+    height: 10%;  /* Fixed height */
+    overflow: hidden;  /* Hide text overflow if necessary */
+    border-width: 2px;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+  }
+  
