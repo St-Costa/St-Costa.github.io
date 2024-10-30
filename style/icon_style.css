@@ -1,6 +1,10 @@
 .icon {
-    width: 40px;
+    width: 30px;
     border-radius: 0px !important;
+}
+
+.icon_left{
+    vertical-align: left;
 }
 
 .icon_inline{
