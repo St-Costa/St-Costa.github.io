@@ -41,7 +41,9 @@
 
     <hr class="left_line">
 
+    <!-- 
     <object type="image/svg+xml" data="./img/Timeline.svg" width="100%" height="auto"></object>
+    -->
 
     <hr class="left_line">
 
@@ -161,7 +163,7 @@
             <h2 style="display: inline;">Strengths</h2>
             <div class="">
                 <ul style="margin-left: 20px;text-align: left; list-style-type: none;">
-                    <li onclick="location.href='https://www.linkedin.com/in/stefano-costa-mathematician/'" class="li_with_icon li_with_profile" style="background-image: url('img/profili/StefanoCosta.png');"><div style="width: 20px; display: inline-block;"></div>Personal and team organization</li>
+                    <li onclick="location.href='https://www.linkedin.com/in/stefano-costa-mathematician/'" class="tooltip_item li_with_icon li_with_profile " style="background-image: url('img/profili/StefanoCosta.png');"><div style="width: 20px; display: inline-block;"></div>Personal and team organization</li>
                     <li onclick="location.href='https://www.linkedin.com/in/stefano-costa-mathematician/'" class="li_with_icon li_with_profile" style="background-image: url('img/profili/StefanoCosta.png');"><div style="width: 20px; display: inline-block;"></div>Versatile, with a generalist skill set</li>
                     <li onclick="location.href='https://www.linkedin.com/in/stefano-costa-mathematician/'" class="li_with_icon li_with_profile" style="background-image: url('img/profili/StefanoCosta.png');"><div style="width: 20px; display: inline-block;"></div>Quick learner</li>
                 </ul>
@@ -180,6 +182,33 @@
             </div>
         </div>
     </div>
+
+    
+    <div id="tooltip" class="tooltip"></div>
+
+    <script>
+        document.querySelectorAll('.tooltip_item').forEach(item => {
+            item.addEventListener('mouseenter', (e) => {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.innerText = "Scritta sopra il cursore";  // Testo del tooltip
+                tooltip.style.display = 'block';
+            });
+
+            item.addEventListener('mousemove', (e) => {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.style.top = `${e.clientY}px`; // Posizione sopra il cursore
+                tooltip.style.left = `${e.clientX}px`; // Posizione accanto al cursore
+            });
+
+            item.addEventListener('mouseleave', () => {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.style.display = 'none'; // Nascondere il tooltip
+            });
+        
+        });
+
+    </script>
+
 
 <footer>
     <div class="footer-link center">
