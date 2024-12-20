@@ -7,27 +7,11 @@ li.li_with_icon {
   }
   
 li.li_with_profile:hover {
-    background-size: 38px; 
+    background-size: 42px; 
 }
 
 li.li_with_profile {    
     font-size: 30px; 
     background-size: 35px;
-    transition: background-size 0.3s ease-in-out;
+    transition: background-size 0.1s ease-in-out;
 }
-
-.tooltip_item {
-    cursor: pointer;
-    position: relative;
-  }
-
-
-.tooltip {
-    position: absolute;
-    background-color: #ff0000;
-    color: #2bff00;
-    padding: 5px;
-    border-radius: 5px;
-    display: none;
-    pointer-events: none;
-  }
