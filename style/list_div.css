@@ -1,5 +1,5 @@
 
-
+/* Create space between elements*/
 .list_div > * {
     margin-top: 5px;  /* Spazio sopra ogni elemento */
     margin-bottom: 5px;  /* Spazio sotto ogni elemento */
@@ -17,12 +17,17 @@
     margin-bottom: 1.2cm;
 }
 
-.left_line {
-    width: 100%;
-    margin-left: 0%;
-}
-
-.not_bold {
+.not_so_bold {
     font-weight: 550;
 }
 
+.list_span {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.explanation_box{
+    border: 4px dashed  #f5d682; 
+    padding: 20px; 
+    border-radius: 10px;
+}

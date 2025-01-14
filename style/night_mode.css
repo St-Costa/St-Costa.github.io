@@ -15,13 +15,17 @@ a {
     color: #6ed6f0;
 }
 
+a:hover {
+    background-color: #000ecc;
+}
+
 hr {
     border: 0;
     border-top: 2px solid #F5F5F7;
     margin: 20px 0;
 }
 
-.yellow {
+i {
     color: #f5d682;
 }
 
@@ -30,21 +34,3 @@ b {
     font-weight: 900;
 }
 
-.custom-button {
-    background-color: transparent;
-    color: #6ed6f0;
-    border: solid;
-    padding: 5px 0px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 12%;  /* Fixed width */
-    height: 10%;  /* Fixed height */
-    overflow: hidden;  /* Hide text overflow if necessary */
-    border-width: 2px;
-  }
-  
-  .custom-button:hover {
-    transform: scale(1.1);
-    background-color: blue;
-  }
-  

@@ -1,0 +1,18 @@
+button {
+    background-color: transparent;
+    color: #6ed6f0;
+    border: solid;
+    padding: 5px -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;  /* Fixed width */
+    height: 40px;  /* Fixed height */
+    overflow: hidden;  /* Hide text overflow if necessary */
+    border-width: 2px;
+  }
+  
+button:hover {
+    transform: scale(1.1);
+    background-color: blue;
+  }
+  

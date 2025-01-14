@@ -7,18 +7,6 @@ body {
     font-family: Verdana, sans-serif;
 }
   
-/* Stili per dispositivi mobili */
-@media only screen and (max-width: 1200px) {
-    body {
-        margin-left: 7%;
-        margin-right: 7%;
-    }
-}
-
-.content {
-    margin: 0 auto;
-    text-align: justify;
-}
 
 .giustifica {
     text-align: justify !important; 
@@ -32,8 +20,8 @@ h1 {
     font-size: 55px;
 }
 
-a:hover {
-    background-color: blue;
+.inline {
+    display: inline;
 }
 
 
@@ -41,75 +29,23 @@ ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    margin-left: 5px;
 }
 
 li {
     margin: 10px 0;
 }
 
-img {
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.animated_img:hover {
-    transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra intorno all'immagine per un effetto più evidente */
-}
-
 .left {
     text-align: left;
 }
 
-figure figcaption {
+.center {
     text-align: center;
+    margin: auto;
+    flex: 1;
 }
 
-
-.poster_img {
-    border-radius: 0px !important;
-    object-fit: cover;  
-    width: 100%;
-    max-width: 400px; 
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Aggiunge transizione per trasformazione e ombra */
-    filter: drop-shadow(#ababab 5px 5px 7px);
-}
-.poster_img:hover {
-    transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra intorno all'immagine per un effetto più evidente */
-}
-
-
-/* Stili per dispositivi mobili */
-@media only screen and (max-width: 1200px) {
-    .left_div, .right_div {
-        width: 100%; /* I div occupano tutta la larghezza */
-        margin-right: 0; /* Rimuove il margine tra i div su mobile */
-    }
-
-    .right_div {
-        margin-top: 10px; /* Aggiunge spazio tra i div quando vanno uno sotto l'altro */
-    }
-
-    .poster_img {
-        width: 50%; /* Mantiene l'immagine responsive */
-        height: auto; /* Permette all'immagine di ridimensionarsi correttamente */
-    }
-
-    .poster_table {
-        display: block;
-    }
-    .poster_table tr {
-        display: block;
-    }
-    .poster_table td {
-        display: block;
-        width: 100% !important;
-    }
-    .poster_table td + td {
-        margin-top: 20px; /* Spazio tra le colonne trasformate in righe */
-        padding-left: 0;
-    }
+td {
+    vertical-align: top;
 }

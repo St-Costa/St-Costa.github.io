@@ -1,0 +1,36 @@
+/* Stili per dispositivi mobili */
+@media only screen and (max-width: 1200px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .left_div, .right_div {
+        width: 100%; /* I div occupano tutta la larghezza */
+        margin-right: 0; /* Rimuove il margine tra i div su mobile */
+    }
+
+    .right_div {
+        margin-top: 10px; /* Aggiunge spazio tra i div quando vanno uno sotto l'altro */
+    }
+
+    .poster_img {
+        width: 50%; /* Mantiene l'immagine responsive */
+        height: auto; /* Permette all'immagine di ridimensionarsi correttamente */
+    }
+
+    .poster_table {
+        display: block;
+    }
+    .poster_table tr {
+        display: block;
+    }
+    .poster_table td {
+        display: block;
+        width: 100% !important;
+    }
+    .poster_table td + td {
+        margin-top: 20px; /* Spazio tra le colonne trasformate in righe */
+        padding-left: 0;
+    }
+}

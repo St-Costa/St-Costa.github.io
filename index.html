@@ -1,65 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefano Costa's webpage</title>
-    <link rel="stylesheet" href="style/night_mode.css">
-    <link rel="stylesheet" href="style/styling.css">
-    <link rel="stylesheet" href="style/footer_style.css">
+    <script src="./javascript/commonHeader.js"></script>
+
+    <link rel="stylesheet" href="./style/img.css">
     <link rel="stylesheet" href="style/icon_style.css">
     <link rel="stylesheet" href="style/list_div.css">
-
-    <meta property="og:title" content="Stefano Costa's Webpage">
-    <meta property="og:description" content="Stefano Costa's personal website, featuring his scientific research, publications, and projects">
-    <meta property="og:image" content="https://st-costa.github.io//img/preview_image.jpg">
-    <meta property="og:url" content="https://st-costa.github.io/">
 </head>
 <body>
     <div class="content bottom_space_big">
         <h1>Stefano Costa</h1>
         
-
-        <table class="content">
+        <table class="content center">
             <tr>
                 <td>
                     <img src="./img/Stefano_Costa.png" alt="Stefano Costa", width="150px">
                 </td>
-                <td style="padding-left: 20px;">
+                <td style="padding-left: 20px;" class="left">
                     <h3 class="left" style="margin-bottom: 0.8cm;">PhD student</h3>
                     <p>Department of Mathematics</p>
-                    <p>University of Graz, AT</p>
+                    <p><a href="https://www.uni-graz.at/en/">University of Graz</a>, AT 🇦🇹</p>
                     <p>
-                    <a href="https://www.linkedin.com/in/stefano-costa-mathematician/">
-                        <img src="img/LinkedIn_Logo.png" alt="LinkedIn" class="icon animated_img" style="float:left;">
-                    </a>
+                        <img src="img/LinkedIn_Logo.png" alt="LinkedIn" class="icon icon_inline animated_img" onClick="window.open('https://www.linkedin.com/in/stefano-costa-mathematician/');">
+                        <img src="img/Bluesky_Logo.png" alt="Bluesky" class="icon icon_inline animated_img" onClick="window.open('https://bsky.app/profile/mathch4os.bsky.social');">
+                        <img src="img/X_logo.jpeg" alt="X" class="icon icon_inline animated_img" onClick="window.open('https://x.com/mathCh4os');">
+                        <img src="img/github_mark.png" alt="github" class="icon icon_inline animated_img" onClick="window.open('https://github.com/St-Costa');">
                     </p>
                 </td>
             </tr>
         </table>
         
         <ul>
-            <li><h2><a href="Work_with_me.html">Work with me</a></h2></li>
-            <li><h2><a href="Skills_portfolio.html">Skills portfolio</a></h2></li>
-            <li><h2><a href="research.html">Research interest</a></h2></li>
-            <li><h2><a href="Academic_projects.html">Academic projects</a></h2></li>
-            <li><h2><a href="Thesis.html">Theses</a></h2></li>
-            <li><h2><a href="Posters.html">Posters</a></h2></li>
-            <!-- <li><h2><a href="Papers_argument.html">List of papers [by argument]</a></h2></li>
-            <li><h2><a href="Papers_year.html">List of papers [by year]</a></h2></li> -->
-            <li><h2><a href="Conferences.html">Conferences</a></h2></li>
-            <li><h2><a href="fAI_Challenge.html">✨ Sci-fAI Challenge Winner ✨</a></h2></li>
+            <li><h2><a href="./mainPages/Work_with_me.html">        Work with me                    </a></h2></li>
+            <li><h2><a href="./mainPages/Skills_portfolio.html">    Skills portfolio                </a></h2></li>
+            <li><h2><a href="./mainPages/research.html">            Research interest               </a></h2></li>
+            <li><h2><a href="./mainPages/Academic_projects.html">   Academic projects               </a></h2></li>
+            <li><h2><a href="./mainPages/Thesis.html">              Theses                          </a></h2></li>
+            <li><h2><a href="./mainPages/Posters.html">             Posters                         </a></h2></li>
+            <li><h2><a href="./mainPages/Conferences.html">         Conferences                     </a></h2></li>
+            <li><h2><a href="./mainPages/fAI_Challenge.html">       ✨ Sci-fAI Challenge Winner ✨  </a></h2></li>
         </ul>
     </div>
-
-<!--
-    <footer>
-        <div class="footer-link center">
-            <a href="https://www.linkedin.com/in/stefano-costa-mathematician/">
-                <img src="img/LinkedIn_Logo.png" alt="LinkedIn" class="icon animated_img">
-            </a>
-        </div>
-    </footer>
--->
 </body>
 </html>

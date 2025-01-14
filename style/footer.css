@@ -12,9 +12,3 @@ footer {
     flex: 1;
     text-align: center;
 }
-.footer-link.left {
-    text-align: left;
-}
-.footer-link.right {
-    text-align: right;
-}
