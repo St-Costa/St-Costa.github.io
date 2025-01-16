@@ -57,3 +57,9 @@ figure figcaption {
     color: #6ed6f0;
     font-size: 150%;
 }
+
+/* QR CODE*/
+.QR {
+    width: 100%;
+    max-width: 300px;
+}

@@ -12,3 +12,7 @@ footer {
     flex: 1;
     text-align: center;
 }
+
+.footer_index {
+    width: 25% !important;
+}

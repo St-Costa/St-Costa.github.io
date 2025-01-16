@@ -33,4 +33,7 @@
         margin-top: 20px; /* Spazio tra le colonne trasformate in righe */
         padding-left: 0;
     }
+    .footer_index {
+        width: 60% !important;
+    }
 }
