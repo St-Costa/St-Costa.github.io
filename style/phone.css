@@ -14,6 +14,10 @@
         margin-top: 10px; /* Aggiunge spazio tra i div quando vanno uno sotto l'altro */
     }
 
+    .list_div {
+        margin-left: 10px;
+    }
+
     .poster_img {
         width: 50%; /* Mantiene l'immagine responsive */
         height: auto; /* Permette all'immagine di ridimensionarsi correttamente */
@@ -36,4 +40,11 @@
     .footer_index {
         width: 60% !important;
     }
+    h1 {
+        font-size: 40px;
+    }
+    .icon_inline{
+        width: 17px;
+    }
+
 }

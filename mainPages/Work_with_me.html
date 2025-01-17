@@ -13,8 +13,19 @@
     <h1 class="title">Work with me</h1>
 
     <hr>
-    <object type="image/svg+xml" data="../img/Timeline.svg" width="100%" height="auto"></object>
+
+    <!--
+    On phone render the img, otherwise there are rendering problems...
+    -->
+    <script>
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            document.write('<img src="../img/Timeline.svg" width="100%" height="auto" alt="Timeline">');
+        } else {
+            document.write('<object type="image/svg+xml" data="../img/Timeline.svg" width="100%" height="auto"></object>');
+        }
+    </script>
     <hr>
+
 
     <table class="poster_table" style="margin:auto;">
         <tr>
