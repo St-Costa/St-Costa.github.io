@@ -1,5 +1,5 @@
 /* Stili per dispositivi mobili */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 950px) {
     body {
         margin-left: 5%;
         margin-right: 5%;
@@ -52,7 +52,10 @@
     }
     .list_span {
         font-size: 22px !important;
-        margin-left: 10px;
+    }
+    .divTd {
+        display: block !important;
+        width: 100% !important;
     }
 
 }

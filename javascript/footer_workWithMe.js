@@ -21,8 +21,8 @@ function openMultiplePages() {
 document.write(`
 <footer>
     <div class="footer-link center">
-        <a href="../index.html">Home</a>
-        <div style="width: 20px; display: inline-block;"></div>
+            <a href="../index.html">Home</a>
+            <div style="width: 20px; display: inline-block;"></div>
         <a href="#" onclick="openMultiplePages()">Icons</a>
     </div>
 </footer>

@@ -5,3 +5,16 @@ td {
 .verticalCenter {
     vertical-align: middle;
 }
+
+/* div to fake a table */
+.divTable {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.divTd {
+    display: table-cell;
+    padding: 5px;
+    width: 30% ;
+}
