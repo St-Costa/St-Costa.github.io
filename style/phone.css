@@ -18,6 +18,10 @@
         margin-left: 10px;
     }
 
+    .index_img {
+        width: 130px !important;
+    }
+
     .poster_img {
         width: 50%; /* Mantiene l'immagine responsive */
         height: auto; /* Permette all'immagine di ridimensionarsi correttamente */
@@ -44,7 +48,11 @@
         font-size: 40px;
     }
     .icon_inline{
-        width: 17px;
+        width: 10px !important;
+    }
+    .list_span {
+        font-size: 22px !important;
+        margin-left: 10px;
     }
 
 }

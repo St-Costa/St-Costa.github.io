@@ -11,6 +11,11 @@ img {
     cursor: pointer;
 }
 
+/* Index image */
+.index_img {
+    width: 150px;
+}
+
 /* Posters */
 .poster_img {
     border-radius: 0px !important;
