@@ -1,3 +1,5 @@
+@import url('night_mode.css');
+
 
 /* Create space between elements*/
 .list_div > * {
@@ -26,7 +28,11 @@
 }
 
 .explanation_box{
-    border: 4px dashed  #f5d682; 
+    border: 4px dashed  var(--italic-color); 
     padding: 20px; 
     border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 0.8cm;
 }
