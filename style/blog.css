@@ -1,0 +1,33 @@
+.toc {
+    position: fixed;
+    margin-left: -24%;
+    width: 20%;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.tldr {
+    border-style: double;
+    border-width: 5px;
+}
+
+body {
+    margin-left: 25% !important;
+}
+
+h2, h3 {
+    text-align: left    !important;
+}
+
+
+hr {
+    border-width: 1px 1px 0 !important;
+    border-style: double !important;
+    width: 30%;
+    margin: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+  
