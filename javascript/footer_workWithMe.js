@@ -21,8 +21,8 @@ function openMultiplePages() {
 document.write(`
 <footer>
     <div class="footer-link center">
-            <a href="../index.html">Home</a>
-            <div style="width: 20px; display: inline-block;"></div>
+        <a href="../index.html">Home</a>
+        <div style="width: 20px; display: inline-block;"></div>
         <a href="#" onclick="openMultiplePages()">Icons</a>
         <p><a target="_blank" href="https://www.reddit.com/r/ProgrammerHumor/comments/15gde8z/thehiddentruth/#lightbox">Handmade site</a>. Raw HTML + CSS, few drops of JS. <a target="_blank" href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
     </div>
