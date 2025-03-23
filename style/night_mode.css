@@ -39,7 +39,7 @@ hr {
     margin: 20px 0;
 }
 
-i {
+i, .yellow {
     color: var(--italic-color);
 }
 

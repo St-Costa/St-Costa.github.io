@@ -27,12 +27,22 @@
     font-size: 25px;
 }
 
+/* Explanation callout */
 .explanation_box{
-    border: 4px dashed  var(--italic-color); 
-    padding: 20px; 
+    border: 2px solid; 
+    padding-bottom: 20px; 
+    padding-top: 0;
     border-radius: 10px;
     width: 80%;
     text-align: center;
     margin:auto;
     margin-bottom: 0.8cm;
+}
+legend {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: yellow !important;
 }
