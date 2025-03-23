@@ -2,7 +2,7 @@ document.write(`
     <footer>
         <div>
             <a href="../index.html">Home</a>
-            <p>Handmade site. <a target="_blank" href="https://www.reddit.com/r/ProgrammerHumor/comments/15gde8z/thehiddentruth/#lightbox">No React</a>. Raw HTML, vanilla CSS, a few drops of JS I couldn't avoid</p>
+            <p><a target="_blank" href="https://www.reddit.com/r/ProgrammerHumor/comments/15gde8z/thehiddentruth/#lightbox">Handmade site</a>. Raw HTML + CSS, few drops of JS. <a target="_blank" href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
         </div>
     </footer>
         `);

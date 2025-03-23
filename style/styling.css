@@ -4,7 +4,8 @@ body {
     margin-right: 15%;
     margin-top: 70px;
     margin-bottom: 70px;
-    font-family: Verdana, sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
 }
 
 a[target="_blank"] {
@@ -19,6 +20,7 @@ a[target="_blank"] {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    font-family: 'JetBrains Mono', monospace !important;
 }
 
 h1 {
