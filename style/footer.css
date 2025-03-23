@@ -1,17 +1,16 @@
 footer {
-    display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid #F5F5F7;
     border-top: 1px solid #F5F5F7;
     padding: 10px;
     margin: auto;
     margin-top: 1.5cm;
     width: 60%;
-}
-.footer-link {
-    flex: 1;
+    font-size: smaller;
+    line-height: 1;
     text-align: center;
+    padding-bottom: 5px;
 }
+
 
 .footer_index {
     width: 25% !important;
