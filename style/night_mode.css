@@ -24,7 +24,13 @@ a {
 }
 
 a:hover {
-    background-color: var(--hover-color);
+    /*background-color: var(--hover-color);*/
+    color: var(--text-color);
+}
+
+a[target="_blank"]:hover {
+    background: transparent url(../img/icon/external-link_white.png) no-repeat right !important;
+    background-size: 10px 10px !important;
 }
 
 hr {

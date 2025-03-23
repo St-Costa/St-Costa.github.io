@@ -6,7 +6,12 @@ body {
     margin-bottom: 70px;
     font-family: Verdana, sans-serif;
 }
-  
+
+a[target="_blank"] {
+    padding-right: 14px;
+    background: transparent url(../img/icon/external-link_cyan.png) no-repeat right;
+    background-size: 10px 10px;
+}
 
 .giustifica {
     text-align: justify !important; 
