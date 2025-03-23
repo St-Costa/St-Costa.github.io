@@ -18,6 +18,17 @@ body {
 
 h2, h3 {
     text-align: left    !important;
+    display: inline;
+}
+
+.header_link {
+    padding-right: 20px;
+    background: transparent url(../img/icon/link.png) no-repeat right; /* Updated path */
+    background-size: 15px 15px;
+    color: var(--text-color);
+}
+.header_link:hover {
+    color: var(--link-color);
 }
 
 
@@ -30,7 +41,10 @@ hr {
     margin-right: auto !important;
 }
 
-  /* Stili per dispositivi mobili */
+
+
+
+/* Stili per dispositivi mobili */
 @media only screen and (max-width: 950px) {
     body {
         margin-left: 5% !important;
