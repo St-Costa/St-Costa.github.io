@@ -30,4 +30,18 @@ hr {
     margin-right: auto !important;
 }
 
-  
+  /* Stili per dispositivi mobili */
+@media only screen and (max-width: 950px) {
+    body {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    .toc {
+        position: static;
+        margin: auto;
+        width: 90%;
+        border: 1px solid var(--text-color);
+        padding: 10px;
+        line-height: 25px;
+    }
+}
