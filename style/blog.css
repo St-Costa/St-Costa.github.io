@@ -5,6 +5,7 @@
     border: 1px solid var(--text-color);
     padding: 10px;
     line-height: 25px;
+    word-break: break-all;
 }
 
 .tldr {
@@ -39,11 +40,11 @@ hr {
     border-width: 1px 1px 0 !important;
     border-style: double !important;
     width: 30%;
-    margin: 30px !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-
 
 
 
