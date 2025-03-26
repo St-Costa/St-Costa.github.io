@@ -16,6 +16,9 @@ body {
     margin-left: 25% !important;
 }
 
+h1 {
+    margin-bottom: 15px;
+}
 h2, h3 {
     text-align: left    !important;
     display: inline;
