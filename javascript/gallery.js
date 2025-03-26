@@ -30,11 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     prev.addEventListener("click", () => showSlide(slideIndex - 1));
     next.addEventListener("click", () => showSlide(slideIndex + 1));
 
-    // Eventi dot
-    dots.forEach((dot, i) => {
-      dot.addEventListener("click", () => showSlide(i));
-    });
-
     // Inizializza slideshow
     showSlide(0);
   });
