@@ -1,11 +1,25 @@
 .toc {
     position: fixed;
-    margin-left: -24%;
-    width: 20%;
+    top: 0;
+    margin-left: -28%;
+    width: 26%;
     border: 1px solid var(--text-color);
     padding: 10px;
     line-height: 25px;
     word-break: break-all;
+    max-height: 95%;
+    overflow-y: auto;
+    
+}
+
+p {
+    padding-left: 3ch !important;
+    padding-bottom: 3px !important;
+    margin: 5px !important;
+}
+
+b {
+    color: var(--bold_color) !important;
 }
 
 .tldr {
@@ -14,15 +28,12 @@
 }
 
 body {
-    margin-left: 25% !important;
+    margin-left: 30% !important;
+    margin-right: 5% !important;
 }
 
-h1 {
-    margin-bottom: 15px;
-}
 h2, h3 {
     text-align: left    !important;
-    display: inline;
 }
 
 .header_link {
@@ -46,6 +57,11 @@ hr {
     margin-right: auto !important;
 }
 
+ul {
+   padding-left: 5ch !important;
+   text-align: left !important;
+    list-style-type: disc !important;
+}
 
 
 /* Stili per dispositivi mobili */
