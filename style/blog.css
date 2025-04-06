@@ -9,8 +9,31 @@
     word-break: break-all;
     max-height: 95%;
     overflow-y: auto;
-    
 }
+
+/* QUOTES */
+.quote {
+    font-style: italic !important;
+    border: 3px outset var(--text-color) !important;
+    margin-left: 3ch;
+}
+.quote p {
+    padding-left: 0 !important;
+    margin-top: -20px !important;
+}
+.quote legend {
+    margin-left: 0;
+}
+.quote h4 {
+    display: inline-block;
+    font-size: 25px;
+}
+.quote .source{
+    text-align: right;
+    margin-top: 5px !important;
+}
+/* --- */
+
 
 p {
     padding-left: 3ch !important;
