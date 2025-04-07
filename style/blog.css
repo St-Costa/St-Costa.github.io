@@ -56,7 +56,11 @@ body {
 }
 
 h2, h3 {
-    text-align: left    !important;
+    text-align: left !important;
+}
+.subtitle {
+    text-align: center !important;
+    margin-bottom: 1ch;
 }
 
 .header_link {
