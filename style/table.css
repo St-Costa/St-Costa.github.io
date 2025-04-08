@@ -9,12 +9,11 @@ td {
 /* div to fake a table */
 .divTable {
     display: table;
-    width: 100%;
     border-collapse: collapse;
+    margin: auto;
 }
 
 .divTd {
     display: table-cell;
-    padding: 5px;
-    width: 30% ;
+    width: 10%;
 }

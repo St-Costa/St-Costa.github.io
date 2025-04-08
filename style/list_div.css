@@ -5,6 +5,7 @@
 .list_div > * {
     margin-top: 5px;  /* Spazio sopra ogni elemento */
     margin-bottom: 5px;  /* Spazio sotto ogni elemento */
+    margin: auto;
 }
 
 .bottom_space {
