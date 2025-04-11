@@ -30,7 +30,7 @@ figure figcaption {
 
 /* Icons */
 .icon {
-    width: 40px !important;
+    width: 30px !important;
     border-radius: 0px !important;
 }
 
@@ -41,7 +41,6 @@ figure figcaption {
 .icon_inline{
     vertical-align: middle; /* Allinea l'icona al centro verticale del testo */
     margin-right: 1px; /* Spazio tra l'icona e il testo */
-    width: 30px;
     display: inline;
     border-radius: 5px !important;
 }
