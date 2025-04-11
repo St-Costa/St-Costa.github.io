@@ -52,3 +52,9 @@ li {
     margin: auto;
     flex: 1;
 }
+
+.briefAboutMe {
+    width: 60%; 
+    border-right-style: none; 
+    border-left-style: none;
+}
