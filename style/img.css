@@ -76,7 +76,7 @@ figure figcaption {
 }
 
 .podcast {
-    height: 80px;
+    height: 100px;
 }
 .podcast:hover {
     transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
