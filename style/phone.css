@@ -56,5 +56,10 @@
         width: 100% !important;
         margin-bottom: 20px;
     }
+    .image_divTd {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
 
 }

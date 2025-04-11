@@ -17,3 +17,9 @@ td {
     display: table-cell;
     width: 10%;
 }
+
+.image_divTd {
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+}

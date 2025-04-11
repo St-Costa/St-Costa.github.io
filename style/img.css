@@ -61,8 +61,25 @@ figure figcaption {
     font-size: 150%;
 }
 
-/* QR CODE*/
 .QR {
     width: 100%;
     max-width: 300px;
+}
+
+.book {
+    height: 150px;
+}
+.book:hover {
+    transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra intorno all'immagine per un effetto più evidente */
+    cursor: pointer;
+}
+
+.podcast {
+    height: 80px;
+}
+.podcast:hover {
+    transform: scale(1.05); /* Ingrandisce l'immagine del 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra intorno all'immagine per un effetto più evidente */
+    cursor: pointer;
 }

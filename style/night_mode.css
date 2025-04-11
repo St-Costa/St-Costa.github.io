@@ -29,9 +29,21 @@ a:hover {
     color: var(--text-color);
 }
 
+a[target="_blank"] {
+    padding-right: 14px;
+    background: transparent url(../img/icon/external-link_cyan.png) no-repeat right;
+    background-size: 10px 10px;
+    font-style: italic;
+}
+a.noTarget {
+    background: none !important;
+}
 a[target="_blank"]:hover {
-    background: transparent url(../img/icon/external-link_white.png) no-repeat right !important;
+    background: transparent url(../img/icon/external-link_white.png) no-repeat right;
     background-size: 10px 10px !important;
+}
+a.noTarget {
+    background: none !important;
 }
 
 hr {
