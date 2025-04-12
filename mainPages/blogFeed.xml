@@ -6,11 +6,17 @@
   <description>Stefano Costa is thinking</description>
   <language>en-us</language>
 
+  <item>
+    <title>I am not a mathematician</title>
+    <link>https://st-costa.github.io/blogPosts/[2025-03-26]%20Things%20from%20Graz.html</link>
+    <description>Studying mathematics is rewarding, working as a mathematician is not. Moreover, the reputation of mathematicians made it difficult for me to find a job outside academia. </description>
+    <pubDate>Sat, 12 Apr 2025 12:00:00 GMT</pubDate>
+  </item>
 
   <item>
     <title>Things from Graz</title>
     <link>https://st-costa.github.io/blogPosts/[2025-03-26]%20Things%20from%20Graz.html</link>
-    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit</description>
+    <description>I spent the last year in Graz working on my master's thesis and for my first (and last) job as a researcher. To recap the experience, I wrote in random order random stuff that caught my eye. Don't expect anything, it's just a "list of things". </description>
     <pubDate>Wed, 26 Mar 2025 12:00:00 GMT</pubDate>
   </item>
   
