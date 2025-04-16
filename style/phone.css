@@ -3,6 +3,7 @@
     body {
         margin-left: 5%;
         margin-right: 5%;
+        font-size: 17px !important;
     }
 
     .left_div, .right_div {
@@ -44,6 +45,9 @@
     .footer_index {
         width: 90% !important;
     }
+    footer {
+        width: 90%;
+    }
     h1 {
         font-size: 40px;
     }
@@ -61,5 +65,7 @@
         width: 100% !important;
         margin-bottom: 20px;
     }
-
+    .giustifica {
+        text-align: left !important; 
+    }
 }
