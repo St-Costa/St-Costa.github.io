@@ -63,13 +63,13 @@ h2, h3 {
     margin-bottom: 1ch;
 }
 
-.header_link {
+h2 a, h3 a {
     padding-right: 20px;
     background: transparent url(../img/icon/link.png) no-repeat right; /* Updated path */
     background-size: 15px 15px;
     color: var(--text-color);
 }
-.header_link:hover {
+h2 a:hover, h3 a:hover {
     color: var(--link-color);
 }
 
