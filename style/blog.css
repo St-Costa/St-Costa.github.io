@@ -11,24 +11,24 @@
     overflow-y: auto;
 }
 
-/* QUOTES */
-.quote {
+/* CALLOUT */
+.callout {
     font-style: italic !important;
     border: 3px outset var(--text-color) !important;
     margin-left: 3ch;
 }
-.quote p {
+.callout p {
     padding-left: 0 !important;
     margin-top: -20px !important;
 }
-.quote legend {
+.callout legend {
     margin-left: 0;
 }
-.quote h4 {
+.callout h4 {
     display: inline-block;
     font-size: 25px;
 }
-.quote .source{
+.callout .source{
     text-align: right;
     margin-top: 5px !important;
 }
