@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     headers.forEach((header, index) => {
         if (index < 2) return;
+        if (header.textContent == "TL;DR") return // Skip TL;DR
+        if (header.textContent == "TOC") return // Skip TOC
+        
         header_string = header.textContent.trim();
         
         header_string = header_string.replace("■", "");
