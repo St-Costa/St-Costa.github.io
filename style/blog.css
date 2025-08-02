@@ -32,6 +32,15 @@
     text-align: right;
     margin-top: 5px !important;
 }
+
+.callout_empty {
+    font-style: italic !important;
+    border: 3px outset var(--text-color) !important;
+    margin-left: 3ch;
+}
+.callout_empty p {
+    padding-left: 0 !important;
+}
 /* --- */
 
 
