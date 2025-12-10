@@ -18,27 +18,32 @@
     <h2>2025</h2>
 
     <div class="list_div bottom_space_big" id="Ashlight">
-        <h3 class="inline">Recap newsletter automation,</h3>
+        <h3 class="inline">Automation: recap newsletter,</h3>
         <h4 class="inline"><i>n8n</i></h4>
         <h5 class="left not_so_bold bottom_space"><a href="../img/recap_newsletter_automation.png">Example mail</a></h5>
         <p class="bottom_space giustifica">
-            An n8n automation that assembles a weekly YouTube recap newsletter end-to-end. Each week the workflow scrapes the channel, identifies the four new uploads, and maps them into an email template so the client can share fresh links without manual copy-paste.
-            <br>The <a href="https://www.activecampaign.com/" target="_blank">ActiveCampaign</a> email template uses four HTML variables (one per link) updated via HTTP calls, and I matched YouTube’s chip/pill link style to maintain familiar branding and readability.
+            Reworked the client’s newsletter strategy by replacing 3 weekly “Have you seen this?” emails with a single automatic weekly recap, which over 4 weeks increased the average open rate by +3.7% and the average click rate by +1.1% on a list of ~2,000 subscribers.<br> 
+            The recap is assembled by an <a href="../img/n8n workflow - recap mail.png">n8n workflow</a>: it pulls the channel’s latest uploads, and writes them into an <a href="https://www.activecampaign.com/" target="_blank">ActiveCampaign</a> template that exposes HTML variables updated via HTTP calls, with each video shown as a clickable thumbnail.
         </p>
     </div>
 
 
     <div class="list_div bottom_space_big" id="YT-shorts-automation">
-        <h3 class="inline">YouTube shorts automation,</h3>
+        <h3 class="inline">Automation: YouTube shorts from live lessons,</h3>
         <h4 class="inline"><i>n8n</i></h4>
-        <h5 class="left not_so_bold bottom_space"><a href="../img/YT_automation_n8n.png">n8n automation</a></h5>
+        <h5 class="left not_so_bold bottom_space"><a href="https://www.youtube.com/shorts/UfN1i_TGIsE" target="_blank">Ex. 1</a>, <a href="https://www.youtube.com/shorts/tCKYtlrAFPk" target="_blank">Ex. 2</a>, <a href="https://www.youtube.com/shorts/Y6jLCO3iRh4" target="_blank">Ex. 3</a></h5>
         <p class="bottom_space giustifica">
-            An n8n automation that turns YouTube Lives into high-performing Shorts. The workflow ingests each live, downloads the transcript, and surfaces the strongest moment. Once a clip is selected, it uses <a href="https://www.rendi.dev/" target="_blank">Rendi</a> (<a href="https://ffmpeg.org/" target="_blank">FFmpeg</a> in the cloud) to cut the segment, add background music, subtitles, and an outro with a CTA, then auto-publishes to the channel.
-            <br>From the first batch, the uploads have outperformed all previous Shorts on the client’s channel, beating competitors on views and interactions and giving the team a repeatable system for turning every live into effective micro-content.
+            An <a href="../img/YT_automation_n8n.png">n8n workflow</a> that turns YouTube Live into a batch of Shorts. 
+            In the first four weeks, generated ~32.000 views with ~8.800 engaged views and an average watch percentage of ~60%, outperforming the client’s previous Shorts.<br>
+            <b>NOTE</b>: the channel has ~5.000 subscribers with average video views ~300.<br>  
+            For every live, the automation ingests the recording, downloads the transcript, identifies multiple strong moments, and produces ~10 Shorts. 
+            Using <a href="https://www.rendi.dev/" target="_blank">Rendi</a>, it cuts each segment, adds background music, subtitles, and an outro with a CTA. 
+            The Shorts are then uploaded to the channel as private so they can be reviewed before publishing.<br>
+            <b>NOTE</b>: SaaS tools at $30/month failed to deliver the clip quality the client wanted, while this custom workflow costs $4/month in LLM usage and is tailored to their needs.
         </p>
     </div>
 
-
+    <!--
     <div class="list_div bottom_space_big" id="pitch-generation-wikipedia">
         <h3 class="inline">Pitch generation from Wikipedia pages,</h3>
         <h4 class="inline"><i>n8n</i></h4>
@@ -49,35 +54,30 @@
             <br>I used HTTP webhooks and ChatGPT batches to reduce costs. I also built a lightweight system for evaluating and storing the generated ideas, ensuring easy retrieval and long-term management of the creative output.
         </p>
     </div>
-
+    -->
 
 
 
     <div class="list_div bottom_space_big" id="newsletter-to-drive">
-        <h3 class="inline">Newsletter-to-Drive automation,</h3>
+        <h3 class="inline">Automation: newsletter-to-Drive,</h3>
         <h4 class="inline"><i>Google App Script</i></h4>
         <h5 class="left not_so_bold bottom_space"></h5>
         <p class="bottom_space giustifica">
-            A small Google Apps Script that grants view permissions to a Drive folder for anyone subscribing to a newsletter. 
-            When a user signs up, <a href="https://www.activecampaign.com/" target="_blank">ActiveCampaign</a> triggers a webhook that sends their email to the script, which automatically adds them as a viewer.
+            Replaced a 1.000€/year course platform with a setup based on Google Drive and the client’s newsletter. 
+            With the client, we defined a new funnel strategy: remove the old platform as an ineffective step and deliver courses live on YouTube, with course materials stored in Drive and access gated by newsletter signup. This change increased average live views from ~170 to ~400, boosted newsletter subscriptions, encouraged users to move off the old platform, and made the newsletter a stronger entry point in the funnel.
             <br>
-            This approach was necessary because ActiveCampaign doesn’t have direct integration with Google’s APIs, and the client wanted a true “set-and-forget” solution. I avoided tools like Zapier or n8n, which require some maintenance for Google API permissions.
+            To do that, a small Google Apps Script grants view access to the Drive folder as soon as someone subscribes: <a href="https://www.activecampaign.com/" target="_blank">ActiveCampaign</a> sends a webhook with the email, the script receives it and adds the user as a viewer, so access is automatic and needs no maintenance.
         </p>
     </div>
 
     <div class="list_div bottom_space_big" id="Leaderbot">
         <h3 class="inline">Leaderbot,</h3>
         <h4 class="inline"><i>Discord bot for leaderboard</i></h4>
-        <h5 class="left not_so_bold bottom_space"><a href="https://github.com/St-Costa/Leaderboard_Discord_bot/"
-                target="_blank">Github</a></h5>
+        <h5 class="left not_so_bold bottom_space"></h5>
         <p class="bottom_space giustifica">
-            A simple bot for Discord servers that generates a leaderboard of members, showing their avatars in a collage
-            grouped by server roles.
-            At first, I saw it as an opportunity to learn AWS, but the fundamental requirement of
-            having to run automatically weekly made me prefer a simpler service: <a href="https://fly.io/"
-                target="_blank">fly.io</a> (on which I run it for free because it is pay-as-you-go and the bot is very
-            lightweight. It also has native support for periodic execution, so I didn't have to use cron jobs!).
-            Once again, I managed to delay AWS until another time...
+            Increased engagement in client’s product Discord server by introducing a weekly, visual leaderboard that created a recurring ritual within the community.<br>
+            The lightweight Discord bot scans the server once a week, groups members by role, and generates a collage of avatars.
+            It runs on <a href="https://fly.io/" target="_blank">fly.io</a> as a tiny pay as you go container with built in scheduling (to avoid complications should future changes be necessary) and is basically free to run at this scale.
         </p>
     </div>
 
