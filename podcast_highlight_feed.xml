@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title><![CDATA[Stefano Podcast RSS]]></title>
+    <title><![CDATA[Stefano YT RSS]]></title>
     <link>https://st-costa.github.io</link>
-    <atom:link href="https://st-costa.github.io/podcast_highlight_feed.xml" rel="self" type="application/rss+xml" />
-    <description><![CDATA[Feed di highlights dei Podcast]]></description>
-    <lastBuildDate>Sat, 13 Dec 2025 13:55:25 GMT</lastBuildDate>
+    <atom:link href="https://st-costa.github.io/YT_highlight_feed.xml" rel="self" type="application/rss+xml" />
+    <description><![CDATA[Feed di highlights dei video YouTube]]></description>
+    <lastBuildDate>Sat, 13 Dec 2025 14:00:00 GMT</lastBuildDate>
     <item>
       <title><![CDATA[[Andrew Huberman] Essentials: Build a Healthy Gut Microbiome | Dr. Justin Sonnenburg]]></title>
       <link>https://www.youtube.com/watch?v=n_MVhE63ZQQ</link>
