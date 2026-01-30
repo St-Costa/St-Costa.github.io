@@ -13,42 +13,50 @@
 
   <item>
     <title>The Corporate Experience</title>
-    <link>https://st-costa.github.io/blogPosts/[2025-26-08]%20The%20corporate%20experience.html</link>
+    <link>https://st-costa.github.io/blogPosts/The%20corporate%20experience.html</link>
     <description>After years of academic life, I finally had the chance to work in a corporate environment. Here are some random thoughts about this experience.</description>
     <pubDate>Mon, 26 Aug 2025 12:00:00 GMT</pubDate>
-    <guid>https://st-costa.github.io/blogPosts/[2025-26-08]%20The%20corporate%20experience.html</guid>
+    <guid>https://st-costa.github.io/blogPosts/The%20corporate%20experience.html</guid>
   </item>
 
   <item>
     <title>Things from Bologna</title>
-    <link>https://st-costa.github.io/blogPosts/[2025-03-23]%20Things%20from%20Bologna.html</link>
+    <link>https://st-costa.github.io/blogPosts/Things%20from%20Bologna.html</link>
     <description>I spent the last month in Bologna working working in corporate for the first and last time. To recap the experience, I wrote in random order random stuff that caught my eye. Don't expect anything, it's just a "list of things".</description>
     <pubDate>Mon, 02 Jun 2025 12:00:00 GMT</pubDate>
-    <guid>https://st-costa.github.io/blogPosts/[2025-03-23]%20Things%20from%20Bologna.html</guid>
+    <guid>https://st-costa.github.io/blogPosts/Things%20from%20Bologna.html</guid>
   </item>
 
   <item>
     <title>I am not a mathematician</title>
-    <link>https://st-costa.github.io/blogPosts/[2025-04-12]%20I%20am%20not%20a%20mathematician.html</link>
+    <link>https://st-costa.github.io/blogPosts/I%20am%20not%20a%20mathematician.html</link>
     <description>Studying mathematics is rewarding, working as a mathematician is not. Moreover, the reputation of mathematicians made it difficult for me to find a job outside academia.</description>
     <pubDate>Sat, 12 Apr 2025 12:00:00 GMT</pubDate>
-    <guid>https://st-costa.github.io/blogPosts/[2025-04-12]%20I%20am%20not%20a%20mathematician.html</guid>
+    <guid>https://st-costa.github.io/blogPosts/I%20am%20not%20a%20mathematician.html</guid>
   </item>
 
   <item>
     <title>Things from Graz</title>
-    <link>https://st-costa.github.io/blogPosts/[2025-03-26]%20Things%20from%20Graz.html</link>
+    <link>https://st-costa.github.io/blogPosts/Things%20from%20Graz.html</link>
     <description>I spent the last year in Graz working on my master's thesis and for my first (and last) job as a researcher. To recap the experience, I wrote in random order random stuff that caught my eye. Don't expect anything, it's just a "list of things".</description>
     <pubDate>Wed, 26 Mar 2025 12:00:00 GMT</pubDate>
-    <guid>https://st-costa.github.io/blogPosts/[2025-03-26]%20Things%20from%20Graz.html</guid>
+    <guid>https://st-costa.github.io/blogPosts/Things%20from%20Graz.html</guid>
+  </item>
+
+  <item>
+    <title>Lifechanging blog posts</title>
+    <link>https://st-costa.github.io/blogPosts/Lifechanging%20blog%20posts.html</link>
+    <description>The most lifechanging blog posts I have ever read</description>
+    <pubDate>Sun, 25 Jan 2026 12:00:00 GMT</pubDate>
+    <guid>https://st-costa.github.io/blogPosts/Lifechanging%20blog%20posts.html</guid>
   </item>
 
   <item>
     <title>Test post</title>
-    <link>https://st-costa.github.io/blogPosts/[2025-03-23]%20Test%20post.html</link>
+    <link>https://st-costa.github.io/blogPosts/Test%20post.html</link>
     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit</description>
     <pubDate>Sun, 23 Mar 2025 12:00:00 GMT</pubDate>
-    <guid>https://st-costa.github.io/blogPosts/[2025-03-23]%20Test%20post.html</guid>
+    <guid>https://st-costa.github.io/blogPosts/Test%20post.html</guid>
   </item>
 
 </channel>
