@@ -15,6 +15,38 @@
 
     <h1 class="title">Projects</h1>
 
+    <h2>2026</h2>
+
+    <div class="list_div bottom_space_big" id="Ashlight">
+        <h3 class="inline">Automation: synthetic target to simulate purchase and click intent,</h3>
+        <h4 class="inline"><i>n8n</i></h4>
+        <h5 class="left not_so_bold bottom_space"><a href="https://arxiv.org/abs/2510.08338" target="_blank">Original
+                paper</a>, <a href="../img/Synthetic target automation.png">n8n workflow</a></h5>
+        <p class="bottom_space giustifica">
+            Replicating what was done in the paper “<i>LLMs Reproduce Human Purchase Intent via Semantic Similarity
+                Elicitation of Likert Ratings,</i>” I created a synthetic target audience based on descriptions of
+            current
+            customers of the business I worked with.
+            We used the synthetic audience to make decisions about products and advertising based on click and purchase
+            intent (using the Likert Ratings approach from the paper) but also on open questions by clustering the
+            results of the embeddings.
+            <br>
+            It was useful for providing direction, but since it is a very niche product (and therefore the (synthetic)
+            audience is very specific), the results tend to be binary: if the product meets the needs of the target
+            (which we know), there is high intent, otherwise it is very low.
+            <br>
+            I expect this tool to become much more useful in a context with less niche and more mass market products, as
+            was essentially found in the paper (which compared the results with surveys of personal care products).
+            <br>
+            A wiser use of this tool could be to generate a large audience as combinations of parameters (age,
+            preferences, economic availability, etc.) and understand, based on the results, which parameters most
+            influence
+            intention and thus define an ICP.
+        </p>
+    </div>
+
+
+
     <h2>2025</h2>
 
     <div class="list_div bottom_space_big" id="Ashlight">
@@ -91,9 +123,13 @@
         <h4 class="inline"><i>n8n</i></h4>
         <h5 class="left not_so_bold bottom_space"></h5>
         <p class="bottom_space giustifica">
-            Helped a Swiss client clear a three month bookkeeping backlog in one month and stay current by automating how bank, PayPal, and credit card data flows into their accounting spreadsheet. 
+            Helped a Swiss client clear a three month bookkeeping backlog in one month and stay current by automating
+            how bank, PayPal, and credit card data flows into their accounting spreadsheet.
             <br>
-            The client initially asked for help “catching up” and we evaluated moving to a full accounting tool with automatic bank connections, but given the complexity of Swiss bank integrations and the overhead of changing systems, we agreed on a simpler automation that kept their spreadsheet and removed the repetitive work instead of introducing a heavy new platform.
+            The client initially asked for help “catching up” and we evaluated moving to a full accounting tool with
+            automatic bank connections, but given the complexity of Swiss bank integrations and the overhead of changing
+            systems, we agreed on a simpler automation that kept their spreadsheet and removed the repetitive work
+            instead of introducing a heavy new platform.
         </p>
     </div>
 
