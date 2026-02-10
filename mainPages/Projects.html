@@ -18,10 +18,41 @@
     <h2>2026</h2>
 
     <div class="list_div bottom_space_big" id="Ashlight">
+        <h3 class="inline">App: ricIAtte,</h3>
+        <h4 class="inline"><i>vibecoded</i></h4>
+        <h5 class="left not_so_bold bottom_space"><a href="../img/ricIAtte_home.png">Homepage</a>, <a
+                href="../img/ricIAtte_saved.png">Saved recipes list</a>, <a href="../img/ricIAtte_recipe.png">Recipe
+                details</a></h5>
+        <p class="bottom_space giustifica">
+            My mother isn't very tech-savvy, and lately she's been scrolling through YouTube shorts to find recipes to
+            cook.
+            I took this opportunity to learn how to use Claude Code by creating an app that suggests recipes to my mom
+            based on her preferences.
+            <br>
+            In the settings, the user enters their preferences as a string, which are then passed on to the LLM during
+            recipe generation. The app offers three ways to generate recipes: periodically (time and days of the week
+            can be set), with a button on the home screen, or in a chat starting from the ingredients the user has.
+            <br>
+            The application has a very simple UI, suitable for an older person, and has a few essential features: you
+            can save recipes or chat with them to change ingredients
+            <br>
+            <b>NOTE</b>: to prevent the LLM from generating the same recipes, I used what was found in the <a
+                href="https://www.verbalized-sampling.com/" target="_blank">paper on verbalized
+                sampling</a>: I explicitly asked for low-probability responses, which greatly improved the variety of
+            recipes. I
+            also use this technique in LLM chats, asking to always append a short final paragraph with a response with a
+            probability &lt;5%.
+        </p>
+    </div>
+
+
+    <div class="list_div bottom_space_big" id="Ashlight">
         <h3 class="inline">Automation: synthetic target to simulate purchase and click intent,</h3>
         <h4 class="inline"><i>n8n</i></h4>
         <h5 class="left not_so_bold bottom_space"><a href="https://arxiv.org/abs/2510.08338" target="_blank">Original
-                paper</a>, <a href="../img/Synthetic target automation.png">n8n workflow</a>, <a href="../document/Click_intent.pdf">Example: click intent</a>, <a href="../document/click_intent_objection.pdf">Example: click intent objection clustering</a></h5>
+                paper</a>, <a href="../img/Synthetic target automation.png">n8n workflow</a>, <a
+                href="../document/Click_intent.pdf">Example: click intent</a>, <a
+                href="../document/click_intent_objection.pdf">Example: click intent objection clustering</a></h5>
         <p class="bottom_space giustifica">
             Replicating what was done in the paper “<i>LLMs Reproduce Human Purchase Intent via Semantic Similarity
                 Elicitation of Likert Ratings,</i>” I created a synthetic target audience based on descriptions of
